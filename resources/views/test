@@ -1,0 +1,1569 @@
+About the job
+
+We’re looking for a hands-on engineer who combines strong development skills with product thinking, quality assurance, and delivery ownership.
+📍Kathmandu, Nepal | Full-time🏢 Anchor Points
+Working under our Technical Lead, you’ll build and improve applications while helping ensure features are complete, intuitive, reliable, and ready for customers. You should be comfortable writing code, clarifying requirements, organizing sprint tasks, and identifying gaps in functionality and user experience.
+Your responsibilities
+Develop and maintain full-stack features, APIs, and integrations.
+Translate business requirements into clear Jira tickets, user stories, and acceptance criteria.
+Take ownership of assigned features from requirements through development, testing, and release.
+Identify workflow gaps, edge cases, usability issues, and opportunities for improvement.
+Review product quality, including functionality, interface consistency, wording, and presentation.
+Collaborate with developers and QA to investigate issues, verify fixes, and prevent regressions.
+Support sprint planning, backlog refinement, and coordination of blockers and dependencies.
+Build AI-powered features and use AI development tools with careful review and validation.
+Communicate progress, risks, and proposed solutions clearly.
+
+What we’re looking for
+Approximately 4–6+ years of software development experience.
+Strong full-stack development skills, with backend experience in PHP/Laravel or Python and frontend experience with JavaScript frameworks.
+Experience with REST APIs, databases, Git, and collaborative development.
+Strong understanding of testing, acceptance criteria, and release readiness.
+Experience using Jira or similar tools to organize development work.
+Practical experience with AI-assisted development; AI integration experience is a plus.
+A strong eye for usability, quality, and customer-facing presentation.
+Clear communication, sound judgment, and proactive follow-through.
+
+Experience with SaaS applications, automated testing, and ownership of features across the complete development lifecycle would be valuable.
+This is a hands-on development role. We’re looking for someone who contributes code regularly while taking responsibility for how the product works and feels to its users.
+
+
+
+
+Software: SCM ERP System
+
+Dashboard & Master Management
+- Admin Dashboard
+- Employee Management
+- Department Management
+- Customer Management
+- Vendor/Supplier Management
+- Branch Management
+- Role & Permission Management
+
+
+Master Job Management
+- Master Job Creation
+- Job Number Generation
+- Job Assignment
+- Job Status Tracking
+- Job Document Management
+- Job History & Audit Trail
+- Job Closing
+
+
+Sourcing & Procurement Module
+- Purchase Request
+- Supplier Quotation
+- Purchase Order (PO)
+- Supplier Management
+- Purchase Approval
+- Procurement Cost Tracking
+
+
+
+International Freight Module
+- Air Freight
+- Sea Freight
+- Land Freight
+- Shipment Booking
+- Cargo Tracking
+- Shipping Documents
+- Freight Cost Management
+
+
+Customs Clearance Module
+- Document Collection
+- Document Verification
+- Customs Declaration
+- Duty & Tax Calculation
+- Customs Processing
+- Clearance Approval
+- Goods Release
+
+
+. Transportation & Carrying Module
+- Vehicle Management
+- Driver Management
+- Trip Management
+- Vehicle Assignment
+- Fuel & Maintenance Records
+- Delivery Tracking
+- Transportation Expenses
+
+
+7. Door-to-Door (D2D) Operations
+- Pickup Request
+- Pickup Assignment
+- Delivery Assignment
+- Delivery Status
+- Proof of Delivery (POD)
+- Customer Notifications
+
+
+
+Finance & Accounting Module
+- Income & Expense
+- Customer Billing
+- Supplier Payments
+- Invoice Management
+- Payment Management
+- Profit & Loss (P&L)
+- Landed Cost Calculation
+- Outstanding Receivables/Payables
+
+
+Approval Workflow & SLA
+- Multi-level Approval
+- Department-wise Approval
+- Manager Approval
+- CTO/Admin Approval
+- Working-hour SLA Tracking
+- Pending Approval Alerts
+- Escalation Notifications
+
+
+Reports & Analytics
+- Daily Operational Reports
+- Monthly Reports
+- Department-wise Reports
+- Employee Performance KPI
+- Job Profitability Reports
+- Audit Logs
+- Export PDF/Excel
+
+
+Department-wise Software Modules
+कम्पनीका विभिन्न विभागले आफ्नै काम ERP बाट गर्न मिल्ने interface बनाउनुपर्छ।
+
+Department	आवश्यक 
+Logistics	Shipment & Logistics Management
+Customs	Customs Clearance Management
+Transportation	Vehicle & Trip Management
+Carrying	Cargo Carrying Management
+D2D Operations	Pickup & Delivery Management
+Sales & Marketing	CRM, Leads & Customer Management
+Finance	Billing, Payment & P&L
+
+and Main Important
+
+Role-Based Access Control (RBAC)
+JWT Authentication
+Two-Factor Authentication
+API Rate Limiting
+Department-wise Data Isolation
+Database Backup Automation
+GitHub Repository Backup
+Server Monitoring
+Activity Logs
+Security Auditing
+
+
+                    ORGANIZATION
+                         |
+            +------------+------------+
+            |            |            |
+         BRANCH       DEPARTMENT    EMPLOYEE
+            |            |            |
+            +------------+------------+
+                         |
+                    USER / ROLE
+                         |
+                    PERMISSIONS
+
+CUSTOMER -------- MASTER JOB -------- SUPPLIER
+                      |
+       +--------------+--------------+
+       |              |              |
+   PROCUREMENT     FREIGHT         CUSTOMS
+       |              |              |
+    PURCHASE       SHIPMENT      DECLARATION
+       |              |              |
+       +--------------+--------------+
+                      |
+               TRANSPORTATION
+                      |
+                TRIP / VEHICLE
+                      |
+                 DELIVERY / POD
+                      |
+                   FINANCE
+                      |
+               INVOICE / PAYMENT
+                      |
+               APPROVAL / AUDIT
+
+
+हामी database लाई 14 वटा मुख्य sections मा विभाजन गर्नेछौँ।
+1. Organization & Master Management
+2. Authentication & Security
+3. Customer & Supplier Management
+4. Master Job Management
+5. Procurement Management
+6. International Freight Management
+7. Customs Clearance
+8. Transportation & Carrying
+9. Door-to-Door Operations
+10. Finance & Accounting
+11. Approval & SLA
+12. Documents & Notifications
+13. CRM & Sales
+14. Reports & System Management
+
+
+Recommended Department-wise Architecture
+01
+Admin & Management
+
+Employees, Departments, Branches, Roles, Permissions
+
+
+
+02
+Master Job Management
+
+Job Creation, Job Number, Assignment, History, Closing
+
+
+
+03
+Procurement
+
+Purchase Request, Quotation, PO, Supplier Approval
+
+
+
+04
+International Freight
+
+Air, Sea, Land Freight, Booking, Cargo Tracking
+
+
+
+05
+Customs Clearance
+
+Documents, Declaration, Duty, Tax, Goods Release
+
+
+
+06
+Transportation & Carrying
+
+Vehicle, Driver, Trip, Fuel, Delivery
+
+
+
+07
+Door-to-Door Operations
+
+Pickup, Delivery, POD, Customer Notifications
+
+
+
+08
+Sales & CRM
+
+Leads, Customer, Follow-up, Sales Pipeline
+
+
+
+09
+Finance & Accounting
+
+Billing, Payment, P&L, Ledger, Landed Cost
+
+
+
+10
+Approval & SLA
+
+Multi-level Approval, Alerts, Escalations
+
+
+
+11
+Reports & Analytics
+
+KPI, Job Profitability, Audit, PDF, Excel
+
+
+एकैपटक सबै modules बनाउनुको सट्टा चरणबद्ध रूपमा development गर्नु राम्रो हुन्छ।
+Phase   Development
+Phase 1 Database, Authentication, RBAC, Admin Dashboard
+Phase 2 Employee, Department, Customer, Supplier, Branch
+Phase 3 Master Job Management
+Phase 4 Procurement + International Freight
+Phase 5 Customs + Transportation + Carrying
+Phase 6 D2D Operations + CRM
+Phase 7 Finance & Accounting
+Phase 8 Approval Workflow + SLA
+Phase 9 Reports, Analytics, Audit
+Phase 10    Security Audit, Testing, Deployment
+
+
+
+and most Important
+
+सबै मुख्य models मा यी common fieldsNecessary
+Field   Data type   Purpose
+id  UUID    Primary Key
+tenantId    UUID    Company reference
+createdAt   DateTime    Record creation
+updatedAt   DateTime    Last update
+createdBy   UUID?   Created user
+updatedBy   UUID?   Updated user
+deletedAt   DateTime?   Soft delete
+
+
+
+
+
+Model 1: Tenant
+Field   Type
+id  UUID
+name    String
+code    String (Unique)
+legalName   String?
+registrationNumber  String?
+panNumber   String?
+vatNumber   String?
+email   String?
+phone   String?
+address String?
+country String
+logoUrl String?
+timezone    String
+baseCurrencyId  UUID
+status  TenantStatus
+createdAt   DateTime
+updatedAt   DateTime
+
+
+
+Model 2: Branch
+Company का विभिन्न branch manage गर्न।
+Field   Type
+id  UUID
+tenantId    UUID
+branchCode  String
+branchName  String
+branchType  String
+email   String?
+phone   String?
+address String
+city    String
+province    String?
+country String
+managerId   UUID?
+isHeadOffice    Boolean
+status  BranchStatus
+createdAt   DateTime
+updatedAt   DateTime
+
+
+Model 3: Department
+Field   Type
+id  UUID
+tenantId    UUID
+departmentCode  String
+departmentName  String
+description String?
+managerId   UUID?
+branchId    UUID?
+status  Boolean
+createdAt   DateTime
+updatedAt   DateTime
+
+Departments:
+- Administration
+- Logistics
+- Customs
+- Transportation
+- Carrying
+- D2D Operations
+- Sales & Marketing
+- Finance
+- Procurement
+Model 4: Designation
+Field   Type
+id  UUID
+tenantId    UUID
+designationName String
+designationCode String
+departmentId    UUID?
+description String?
+status  Boolean
+
+Model 5: Employee
+Field   Type
+id  UUID
+tenantId    UUID
+employeeCode    String (Unique)
+firstName   String
+middleName  String?
+lastName    String
+email   String
+phone   String
+alternatePhone  String?
+gender  String?
+dateOfBirth DateTime?
+profileImage    String?
+departmentId    UUID
+branchId    UUID
+designationId   UUID?
+managerId   UUID?
+joiningDate DateTime
+employmentType  String
+address String?
+emergencyContact    String?
+status  EmployeeStatus
+createdAt   DateTime
+updatedAt   DateTime
+
+Model 6: EmployeeDocument
+Field   Type
+id  UUID
+employeeId  UUID
+documentType    String
+documentNumber  String?
+fileKey String
+expiryDate  DateTime?
+uploadedBy  UUID
+createdAt   DateTime
+
+Model 7: EmployeeDepartment
+एक employee एकभन्दा बढी department मा काम गर्न सक्ने व्यवस्था।
+Field   Type
+id  UUID
+employeeId  UUID
+departmentId    UUID
+branchId    UUID
+isPrimary   Boolean
+assignedAt  DateTime
+status  Boolean
+
+Model 8: Currency
+Field   Type
+id  UUID
+code    String (USD, NPR, EUR)
+name    String
+symbol  String
+decimalPlaces   Int
+isActive    Boolean
+
+Model 9: ExchangeRate
+Field   Type
+id  UUID
+tenantId    UUID
+fromCurrencyId  UUID
+toCurrencyId    UUID
+exchangeRate    Decimal
+effectiveDate   DateTime
+source  String?
+createdAt   DateTime
+
+Model 10: Country
+Field   Type
+id  UUID
+countryCode String
+countryName String
+phoneCode   String?
+isActive    Boolean
+
+
+3. Authentication & Security Models
+Model 11: User
+Field   Type
+id  UUID
+tenantId    UUID
+employeeId  UUID?
+username    String
+email   String
+passwordHash    String
+isEmailVerified Boolean
+isActive    Boolean
+isLocked    Boolean
+failedLoginAttempts Int
+lastLoginAt DateTime?
+passwordChangedAt   DateTime?
+createdAt   DateTime
+updatedAt   DateTime
+
+Model 12: Role
+Field   Type
+id  UUID
+tenantId    UUID
+roleName    String
+roleCode    String
+description String?
+isSystemRole    Boolean
+status  Boolean
+createdAt   DateTime
+
+Model 13: Permission
+Field   Type
+id  UUID
+module  String
+permissionName  String
+permissionCode  String (Unique)
+action  String
+description String?
+
+Model 14: UserRole
+Field   Type
+id  UUID
+userId  UUID
+roleId  UUID
+branchId    UUID?
+departmentId    UUID?
+assignedBy  UUID
+assignedAt  DateTime
+
+Model 15: RolePermission
+Field   Type
+id  UUID
+roleId  UUID
+permissionId    UUID
+createdAt   DateTime
+
+Model 16: RefreshToken
+Field   Type
+id  UUID
+userId  UUID
+tokenHash   String
+deviceInfo  String?
+ipAddress   String?
+expiresAt   DateTime
+revokedAt   DateTime?
+createdAt   DateTime
+
+Model 17: UserMFA
+Field   Type
+id  UUID
+userId  UUID
+encryptedSecret String
+isEnabled   Boolean
+enabledAt   DateTime?
+createdAt   DateTime
+
+Model 18: BackupCodes
+Field   Type
+id  UUID
+userId  UUID
+codeHash    String
+usedAt  DateTime?
+createdAt   DateTime
+
+Model 19: LoginHistory
+Field   Type
+id  UUID
+userId  UUID?
+emailAttempted  String?
+ipAddress   String
+userAgent   String?
+loginStatus String
+failureReason   String?
+createdAt   DateTime
+
+Model 20: UserSession
+Field   Type
+id  UUID
+userId  UUID
+sessionTokenHash    String
+ipAddress   String?
+deviceName  String?
+lastActivityAt  DateTime
+expiresAt   DateTime
+revokedAt   DateTime?
+
+
+4. Customer & Supplier Management
+Model 21: Customer
+Field   Type
+id  UUID
+tenantId    UUID
+customerCode    String
+customerType    String
+companyName String
+contactPerson   String?
+email   String?
+phone   String
+alternatePhone  String?
+panNumber   String?
+vatNumber   String?
+billingAddress  String?
+shippingAddress String?
+countryId   UUID?
+creditLimit Decimal
+paymentTerms    String?
+currencyId  UUID?
+assignedSalesPersonId   UUID?
+status  CustomerStatus
+notes   String?
+createdAt   DateTime
+updatedAt   DateTime
+
+Model 22: CustomerContact
+Field   Type
+id  UUID
+customerId  UUID
+contactName String
+designation String?
+email   String?
+phone   String
+isPrimary   Boolean
+status  Boolean
+
+Model 23: CustomerAddress
+Field   Type
+id  UUID
+customerId  UUID
+addressType String
+addressLine1    String
+addressLine2    String?
+city    String
+province    String?
+countryId   UUID
+postalCode  String?
+isDefault   Boolean
+
+Model 24: Supplier
+Field   Type
+id  UUID
+tenantId    UUID
+supplierCode    String
+supplierType    String
+companyName String
+contactPerson   String?
+email   String?
+phone   String
+panNumber   String?
+vatNumber   String?
+address String?
+countryId   UUID?
+currencyId  UUID?
+paymentTerms    String?
+bankName    String?
+bankAccountName String?
+bankAccountNumberEncrypted  String?
+status  SupplierStatus
+notes   String?
+createdAt   DateTime
+updatedAt   DateTime
+
+Model 25: SupplierContact
+Field   Type
+id  UUID
+supplierId  UUID
+contactName String
+designation String?
+email   String?
+phone   String
+isPrimary   Boolean
+
+Model 26: SupplierService
+Field   Type
+id  UUID
+supplierId  UUID
+serviceType String
+description String?
+countryId   UUID?
+status  Boolean
+
+Model 27: SupplierDocument
+Field   Type
+id  UUID
+supplierId  UUID
+documentType    String
+documentNumber  String?
+fileKey String
+expiryDate  DateTime?
+uploadedAt  DateTime
+
+
+5. Master Job Management Models
+यो सबैभन्दा महत्वपूर्ण section हो। Procurement, Freight, Customs, Transportation, D2D र Finance सबैलाई एउटै jobId ले connect गर्छ।
+Model 28: Job
+Field   Type
+id  UUID
+tenantId    UUID
+branchId    UUID
+jobNumber   String (Unique)
+customerId  UUID
+serviceType String
+jobTitle    String
+description String?
+originCountryId UUID?
+destinationCountryId    UUID?
+originAddress   String?
+destinationAddress  String?
+shipmentMode    String?
+priority    String
+assignedEmployeeId  UUID?
+salesPersonId   UUID?
+estimatedRevenue    Decimal
+estimatedCost   Decimal
+currencyId  UUID
+jobDate DateTime
+expectedCompletionDate  DateTime?
+actualCompletionDate    DateTime?
+status  JobStatus
+remarks String?
+createdBy   UUID
+createdAt   DateTime
+updatedAt   DateTime
+deletedAt   DateTime?
+
+Model 29: JobAssignment
+Field   Type
+id  UUID
+jobId   UUID
+employeeId  UUID
+departmentId    UUID
+assignedBy  UUID
+assignmentType  String
+assignedAt  DateTime
+dueDate DateTime?
+status  String
+remarks String?
+
+Model 30: JobStatusHistory
+Field   Type
+id  UUID
+jobId   UUID
+previousStatus  String?
+newStatus   String
+changedBy   UUID
+remarks String?
+changedAt   DateTime
+
+Model 31: JobService
+Field   Type
+id  UUID
+jobId   UUID
+serviceName String
+serviceCode String
+departmentId    UUID
+estimatedCost   Decimal
+actualCost  Decimal
+sellingPrice    Decimal
+currencyId  UUID
+status  String
+remarks String?
+
+Model 32: JobNote
+Field   Type
+id  UUID
+jobId   UUID
+employeeId  UUID
+noteType    String
+note    String
+isInternal  Boolean
+createdAt   DateTime
+
+Model 33: JobDocument
+Field   Type
+id  UUID
+jobId   UUID
+documentType    String
+documentName    String
+fileKey String
+fileSize    Int
+mimeType    String
+version Int
+uploadedBy  UUID
+uploadedAt  DateTime
+
+Model 34: JobClosure
+Field   Type
+id  UUID
+jobId   UUID (Unique)
+closedBy    UUID
+closureDate DateTime
+financeVerified Boolean
+operationsVerified  Boolean
+outstandingAmount   Decimal
+closureRemarks  String?
+approvedBy  UUID?
+approvedAt  DateTime?
+
+Model 35: JobCost
+Field   Type
+id  UUID
+jobId   UUID
+costCategory    String
+sourceModule    String
+sourceRecordId  UUID?
+description String
+amount  Decimal
+currencyId  UUID
+exchangeRate    Decimal
+baseAmount  Decimal
+transactionDate DateTime
+status  String
+
+Model 36: JobRevenue
+Field   Type
+id  UUID
+jobId   UUID
+revenueType String
+sourceRecordId  UUID?
+description String
+amount  Decimal
+currencyId  UUID
+exchangeRate    Decimal
+baseAmount  Decimal
+transactionDate DateTime
+status  String
+
+Model 37: JobChecklist
+Field   Type
+id  UUID
+jobId   UUID
+checklistName   String
+departmentId    UUID
+isRequired  Boolean
+status  String
+completedBy UUID?
+completedAt DateTime?
+
+
+6. Sourcing & Procurement Models
+Model 38: PurchaseRequest
+Field   Type
+id  UUID
+tenantId    UUID
+branchId    UUID
+requestNumber   String (Unique)
+jobId   UUID
+departmentId    UUID
+requestedBy UUID
+requestDate DateTime
+requiredDate    DateTime?
+priority    String
+purpose String
+estimatedAmount Decimal
+currencyId  UUID
+status  PurchaseRequestStatus
+approvedBy  UUID?
+remarks String?
+createdAt   DateTime
+
+Model 39: PurchaseRequestItem
+Field   Type
+id  UUID
+requestId   UUID
+itemName    String
+description String?
+quantity    Decimal
+unit    String
+estimatedUnitPrice  Decimal
+estimatedTotal  Decimal
+remarks String?
+
+Model 40: SupplierQuotation
+Field   Type
+id  UUID
+tenantId    UUID
+quotationNumber String
+requestId   UUID
+supplierId  UUID
+quotationDate   DateTime
+validUntil  DateTime?
+currencyId  UUID
+subtotal    Decimal
+taxAmount   Decimal
+discountAmount  Decimal
+totalAmount Decimal
+deliveryTerms   String?
+paymentTerms    String?
+attachmentKey   String?
+status  String
+createdAt   DateTime
+
+Model 41: QuotationItem
+Field   Type
+id  UUID
+quotationId UUID
+itemName    String
+description String?
+quantity    Decimal
+unitPrice   Decimal
+taxRate Decimal
+taxAmount   Decimal
+totalAmount Decimal
+
+Model 42: PurchaseOrder
+Field   Type
+id  UUID
+tenantId    UUID
+branchId    UUID
+poNumber    String (Unique)
+jobId   UUID?
+supplierId  UUID
+quotationId UUID?
+orderDate   DateTime
+expectedDeliveryDate    DateTime?
+currencyId  UUID
+subtotal    Decimal
+discountAmount  Decimal
+taxAmount   Decimal
+shippingAmount  Decimal
+totalAmount Decimal
+paymentTerms    String?
+deliveryAddress String?
+status  PurchaseOrderStatus
+createdBy   UUID
+approvedBy  UUID?
+createdAt   DateTime
+
+Model 43: PurchaseOrderItem
+Field   Type
+id  UUID
+purchaseOrderId UUID
+itemName    String
+description String?
+quantity    Decimal
+receivedQuantity    Decimal
+unit    String
+unitPrice   Decimal
+taxRate Decimal
+totalAmount Decimal
+
+Model 44: GoodsReceipt
+Field   Type
+id  UUID
+tenantId    UUID
+receiptNumber   String
+purchaseOrderId UUID
+receivedBy  UUID
+receiptDate DateTime
+deliveryNoteNumber  String?
+remarks String?
+status  String
+
+Model 45: GoodsReceiptItem
+Field   Type
+id  UUID
+goodsReceiptId  UUID
+purchaseOrderItemId UUID
+orderedQuantity Decimal
+receivedQuantity    Decimal
+acceptedQuantity    Decimal
+rejectedQuantity    Decimal
+remarks String?
+
+Model 46: ProcurementApproval
+Field   Type
+id  UUID
+purchaseOrderId UUID
+approverId  UUID
+approvalLevel   Int
+status  String
+remarks String?
+approvedAt  DateTime?
+
+Model 47: ProcurementExpense
+Field   Type
+id  UUID
+jobId   UUID
+supplierId  UUID
+purchaseOrderId UUID?
+expenseType String
+amount  Decimal
+currencyId  UUID
+expenseDate DateTime
+description String?
+status  String
+
+
+7. International Freight Models
+Air, Sea र Land freight सबैलाई एउटै shipment model बाट manage गर्न सकिन्छ। Mode अनुसार अतिरिक्त details छुट्टाछुट्टै राख्नुहोस्।
+Model 48: Shipment
+Field   Type
+id  UUID
+tenantId    UUID
+branchId    UUID
+shipmentNumber  String (Unique)
+jobId   UUID
+shipmentMode    ShipmentMode
+customerId  UUID
+shipperName String?
+consigneeName   String?
+originCountryId UUID
+destinationCountryId    UUID
+originLocation  String
+destinationLocation String
+cargoDescription    String?
+totalPackages   Int
+grossWeight Decimal
+netWeight   Decimal?
+chargeableWeight    Decimal?
+volumeCbm   Decimal?
+incoterm    String?
+currencyId  UUID
+estimatedDeparture  DateTime?
+estimatedArrival    DateTime?
+actualDeparture DateTime?
+actualArrival   DateTime?
+status  ShipmentStatus
+createdAt   DateTime
+
+Model 49: ShipmentRoute
+Field   Type
+id  UUID
+shipmentId  UUID
+sequence    Int
+transportMode   String
+origin  String
+destination String
+departureDate   DateTime?
+arrivalDate DateTime?
+carrierId   UUID?
+remarks String?
+
+Model 50: ShipmentBooking
+Field   Type
+id  UUID
+shipmentId  UUID
+bookingNumber   String
+carrierName String
+carrierReference    String?
+bookingDate DateTime
+departureDate   DateTime?
+arrivalDate DateTime?
+originPort  String?
+destinationPort String?
+bookingStatus   String
+remarks String?
+
+Model 51: AirFreightDetail
+Field   Type
+id  UUID
+shipmentId  UUID (Unique)
+airlineName String
+airlineCode String?
+awbNumber   String?
+masterAwbNumber String?
+flightNumber    String?
+airportOfDeparture  String?
+airportOfDestination    String?
+chargeableWeight    Decimal
+flightDate  DateTime?
+
+Model 52: SeaFreightDetail
+Field   Type
+id  UUID
+shipmentId  UUID (Unique)
+shippingLine    String
+vesselName  String?
+voyageNumber    String?
+billOfLadingNumber  String?
+masterBlNumber  String?
+containerCount  Int
+containerType   String?
+loadingPort String
+dischargePort   String
+etd DateTime?
+eta DateTime?
+
+Model 53: LandFreightDetail
+Field   Type
+id  UUID
+shipmentId  UUID (Unique)
+carrierName String
+vehicleNumber   String?
+driverName  String?
+consignmentNumber   String?
+borderPoint String?
+departureDate   DateTime?
+arrivalDate DateTime?
+
+Model 54: ShipmentContainer
+Field   Type
+id  UUID
+shipmentId  UUID
+containerNumber String
+containerType   String
+sealNumber  String?
+size    String?
+grossWeight Decimal?
+status  String
+
+Model 55: ShipmentPackage
+Field   Type
+id  UUID
+shipmentId  UUID
+packageType String
+quantity    Int
+length  Decimal?
+width   Decimal?
+height  Decimal?
+weight  Decimal
+volumeCbm   Decimal?
+description String?
+
+Model 56: ShipmentTracking
+Field   Type
+id  UUID
+shipmentId  UUID
+trackingNumber  String?
+eventType   String
+status  String
+location    String?
+description String?
+eventDate   DateTime
+source  String
+createdAt   DateTime
+
+Model 57: FreightCost
+Field   Type
+id  UUID
+shipmentId  UUID
+jobId   UUID
+supplierId  UUID?
+costType    String
+description String?
+amount  Decimal
+currencyId  UUID
+exchangeRate    Decimal
+baseAmount  Decimal
+costDate    DateTime
+status  String
+
+
+8. Customs Clearance Models
+Model 58: CustomsCase
+Field   Type
+id  UUID
+tenantId    UUID
+branchId    UUID
+caseNumber  String (Unique)
+jobId   UUID
+shipmentId  UUID
+customerId  UUID
+declarationNumber   String?
+declarationType String
+customsOffice   String?
+countryId   UUID
+arrivalDate DateTime?
+declarationDate DateTime?
+clearanceDate   DateTime?
+status  CustomsStatus
+assignedEmployeeId  UUID?
+remarks String?
+createdAt   DateTime
+
+Model 59: CustomsItem
+Field   Type
+id  UUID
+customsCaseId   UUID
+itemDescription String
+hsCode  String
+countryOfOriginId   UUID?
+quantity    Decimal
+unit    String
+unitValue   Decimal
+totalValue  Decimal
+currencyId  UUID
+grossWeight Decimal?
+netWeight   Decimal?
+
+Model 60: CustomsDocument
+Field   Type
+id  UUID
+customsCaseId   UUID
+documentType    String
+documentNumber  String?
+fileKey String
+issueDate   DateTime?
+expiryDate  DateTime?
+verificationStatus  String
+verifiedBy  UUID?
+verifiedAt  DateTime?
+remarks String?
+
+Model 61: CustomsDeclaration
+Field   Type
+id  UUID
+customsCaseId   UUID
+declarationNumber   String
+declarationDate DateTime
+customsReference    String?
+declaredValue   Decimal
+currencyId  UUID
+declarationStatus   String
+submittedBy UUID
+submittedAt DateTime?
+
+Model 62: CustomsDutyTax
+Field   Type
+id  UUID
+customsCaseId   UUID
+customsItemId   UUID?
+taxType String
+hsCode  String?
+taxableValue    Decimal
+taxRate Decimal
+taxAmount   Decimal
+currencyId  UUID
+calculationDate DateTime
+
+Model 63: CustomsPayment
+Field   Type
+id  UUID
+customsCaseId   UUID
+paymentReference    String
+paymentType String
+amount  Decimal
+currencyId  UUID
+paymentDate DateTime
+paymentStatus   String
+receiptFileKey  String?
+
+Model 64: CustomsApproval
+Field   Type
+id  UUID
+customsCaseId   UUID
+approverId  UUID
+approvalLevel   Int
+status  String
+remarks String?
+approvedAt  DateTime?
+
+Model 65: GoodsRelease
+Field   Type
+id  UUID
+customsCaseId   UUID
+releaseNumber   String?
+releaseDate DateTime
+releasedBy  UUID
+receivedBy  String?
+remarks String?
+releaseDocumentKey  String?
+
+
+9. Transportation & Carrying Models
+Model 66: Vehicle
+Field   Type
+id  UUID
+tenantId    UUID
+branchId    UUID
+vehicleNumber   String (Unique)
+vehicleType String
+vehicleCategory String
+brand   String?
+model   String?
+manufactureYear Int?
+chassisNumber   String?
+engineNumber    String?
+capacityKg  Decimal?
+registrationDate    DateTime?
+registrationExpiry  DateTime?
+insuranceExpiry DateTime?
+ownershipType   String
+status  VehicleStatus
+remarks String?
+createdAt   DateTime
+
+Model 67: Driver
+Field   Type
+id  UUID
+tenantId    UUID
+employeeId  UUID?
+driverCode  String
+driverName  String
+phone   String
+address String?
+licenseNumber   String
+licenseCategory String?
+licenseExpiry   DateTime
+emergencyContact    String?
+status  DriverStatus
+createdAt   DateTime
+
+Model 68: Trip
+Field   Type
+id  UUID
+tenantId    UUID
+branchId    UUID
+tripNumber  String (Unique)
+jobId   UUID
+shipmentId  UUID?
+vehicleId   UUID
+driverId    UUID
+origin  String
+destination String
+startDate   DateTime?
+expectedEndDate DateTime?
+actualEndDate   DateTime?
+startingOdometer    Decimal?
+endingOdometer  Decimal?
+distanceKm  Decimal?
+status  TripStatus
+remarks String?
+createdBy   UUID
+
+Model 69: TripStop
+Field   Type
+id  UUID
+tripId  UUID
+sequence    Int
+stopType    String
+locationName    String
+address String?
+latitude    Decimal?
+longitude   Decimal?
+plannedArrival  DateTime?
+actualArrival   DateTime?
+departureTime   DateTime?
+status  String
+
+Model 70: VehicleAssignment
+Field   Type
+id  UUID
+vehicleId   UUID
+driverId    UUID
+tripId  UUID?
+assignedBy  UUID
+assignedAt  DateTime
+releasedAt  DateTime?
+status  String
+
+Model 71: FuelRecord
+Field   Type
+id  UUID
+vehicleId   UUID
+tripId  UUID?
+fuelType    String
+quantityLiters  Decimal
+pricePerLiter   Decimal
+totalAmount Decimal
+currencyId  UUID
+odometerReading Decimal
+fuelDate    DateTime
+supplierName    String?
+receiptFileKey  String?
+createdBy   UUID
+
+Model 72: VehicleMaintenance
+Field   Type
+id  UUID
+vehicleId   UUID
+maintenanceType String
+description String
+serviceProvider String?
+maintenanceDate DateTime
+nextServiceDate DateTime?
+odometerReading Decimal?
+totalCost   Decimal
+currencyId  UUID
+invoiceFileKey  String?
+status  String
+
+Model 73: TransportationExpense
+Field   Type
+id  UUID
+jobId   UUID
+tripId  UUID
+expenseType String
+description String?
+amount  Decimal
+currencyId  UUID
+expenseDate DateTime
+receiptFileKey  String?
+approvedBy  UUID?
+status  String
+
+Model 74: CarryingOperation
+Field   Type
+id  UUID
+tenantId    UUID
+carryingNumber  String
+jobId   UUID
+shipmentId  UUID?
+cargoDescription    String
+packageCount    Int
+totalWeight Decimal
+origin  String
+destination String
+assignedTeamId  UUID?
+assignedVehicleId   UUID?
+startDate   DateTime?
+completionDate  DateTime?
+status  String
+remarks String?
+
+Model 75: CarryingAssignment
+Field   Type
+id  UUID
+carryingOperationId UUID
+employeeId  UUID
+assignedBy  UUID
+assignmentRole  String
+assignedAt  DateTime
+status  String
+
+Model 76: CarryingExpense
+Field   Type
+id  UUID
+carryingOperationId UUID
+expenseType String
+description String?
+quantity    Decimal?
+unitCost    Decimal?
+amount  Decimal
+currencyId  UUID
+expenseDate DateTime
+createdBy   UUID
+
+
+10. Door-to-Door (D2D) Operations Models
+Model 77: PickupRequest
+Field   Type
+id  UUID
+tenantId    UUID
+pickupNumber    String (Unique)
+jobId   UUID
+customerId  UUID
+pickupContactName   String
+pickupPhone String
+pickupAddress   String
+pickupCity  String
+latitude    Decimal?
+longitude   Decimal?
+requestedDate   DateTime
+packageCount    Int
+weight  Decimal?
+instructions    String?
+status  PickupStatus
+createdBy   UUID
+createdAt   DateTime
+
+Model 78: PickupAssignment
+Field   Type
+id  UUID
+pickupRequestId UUID
+employeeId  UUID
+vehicleId   UUID?
+driverId    UUID?
+assignedBy  UUID
+assignedAt  DateTime
+expectedPickupTime  DateTime?
+actualPickupTime    DateTime?
+status  String
+remarks String?
+
+Model 79: Delivery
+Field   Type
+id  UUID
+tenantId    UUID
+deliveryNumber  String (Unique)
+jobId   UUID
+customerId  UUID
+receiverName    String?
+receiverPhone   String?
+deliveryAddress String
+deliveryCity    String
+latitude    Decimal?
+longitude   Decimal?
+expectedDeliveryDate    DateTime?
+actualDeliveryDate  DateTime?
+packageCount    Int
+status  DeliveryStatus
+deliveryInstructions    String?
+createdAt   DateTime
+
+Model 80: DeliveryAssignment
+Field   Type
+id  UUID
+deliveryId  UUID
+employeeId  UUID
+driverId    UUID?
+vehicleId   UUID?
+assignedBy  UUID
+assignedAt  DateTime
+status  String
+
+Model 81: DeliveryEvent
+Field   Type
+id  UUID
+deliveryId  UUID
+status  String
+location    String?
+latitude    Decimal?
+longitude   Decimal?
+description String?
+updatedBy   UUID
+eventDate   DateTime
+
+Model 82: ProofOfDelivery
+Field   Type
+id  UUID
+deliveryId  UUID
+receiverName    String
+receiverPhone   String?
+signatureFileKey    String?
+photoFileKey    String?
+otpVerified Boolean
+remarks String?
+deliveredAt DateTime
+submittedBy UUID
+
+Model 83: PickupDocument
+Field   Type
+id  UUID
+pickupRequestId UUID
+documentType    String
+fileKey String
+uploadedBy  UUID
+uploadedAt  DateTime
+
+
+11. Finance & Accounting Models
+यो ERP को अर्को सबैभन्दा संवेदनशील भाग हो। Finance मा छुट्टै accounting structure बनाउनुपर्छ।
+Model 84: ChartOfAccount
+Field   Type
+id  UUID
+tenantId    UUID
+accountCode String
+accountName String
+accountType AccountType
+parentAccountId UUID?
+description String?
+currencyId  UUID?
+isSystemAccount Boolean
+isActive    Boolean
+createdAt   DateTime
+
+Account Types:
+- ASSET
+- LIABILITY
+- EQUITY
+- REVENUE
+- EXPENSE
+Model 85: FiscalYear
+Field   Type
+id  UUID
+tenantId    UUID
+fiscalYearName  String
+startDate   DateTime
+endDate DateTime
+status  String
+isCurrent   Boolean
+
+Model 86: FiscalPeriod
+Field   Type
+id  UUID
+fiscalYearId    UUID
+periodName  String
+startDate   DateTime
+endDate DateTime
+status  String
+closedBy    UUID?
+closedAt    DateTime?
+
+Model 87: JournalEntry
+
+
